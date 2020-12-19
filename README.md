@@ -8,4 +8,4 @@
 ## Chapter_2 : 리스트
 
 * ArrList / 배열로 구현한 리스트
-* SList / 
+* SList / 단순연결리스트
