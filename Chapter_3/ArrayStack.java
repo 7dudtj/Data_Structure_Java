@@ -12,15 +12,15 @@ class Main {
   public static void main(String[] args) {
     ArrayStack<String> stack = new ArrayStack<String>();
     stack.push("apple");
-    stack.showList();
+    stack.showStack();
     stack.push("orange");
-    stack.showList();
+    stack.showStack();
     stack.push("grape");
-    stack.showList();
+    stack.showStack();
     stack.pop();
-    stack.showList();
+    stack.showStack();
     System.out.println(stack.pop());
-    stack.showList();
+    stack.showStack();
   }
 }
 
@@ -65,7 +65,7 @@ class ArrayStack<E>{
     s = (E[]) t; // 배열 t를 배열 s로  
   }
   // 스택 내용 확인
-  public void showList(){
+  public void showStack(){
     for (int i = 0; i < s.length; i++)
       System.out.print(s[i] + " ");
     System.out.println();  
