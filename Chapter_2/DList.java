@@ -1,3 +1,11 @@
+/*
+이중연결리스트
+
+탐색 : O(N)
+삽입 : O(1)
+삭제 : O(1)
+*/
+
 import java.util.NoSuchElementException;
 
 public class Main {
