@@ -20,4 +20,4 @@
 * ListQueue / 연결리스트로 구현한 
 
 ## Chapter_4 : 트리
-* BinaryTree / 
+* BinaryTree / 이진트리
