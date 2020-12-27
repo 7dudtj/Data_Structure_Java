@@ -21,3 +21,4 @@
 
 ## Chapter_4 : 트리
 * BinaryTree / 이진트리
+* UnionFind / 상호배타적 집합의  union-find 
