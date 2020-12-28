@@ -25,3 +25,4 @@
 
 ## Chapter_5 : 탐색트리
 * BinarySearchTree / 이진탐색트리
+* RedBlackTree / 좌편향 레드블랙트리 (Left-Leaning Red-Black Tree, LLRB Tree)
