@@ -29,3 +29,4 @@
 
 ## Chapter_6 : 해시테이블
 * LinearProbing / 선형조사, 개방주소방식(Open Addressing)
+* QuadraticProbing / 이차조사, 개방주소방식(Open Addressing)
