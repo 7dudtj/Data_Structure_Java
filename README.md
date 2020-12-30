@@ -26,3 +26,6 @@
 ## Chapter_5 : 탐색트리
 * BinarySearchTree / 이진탐색트리
 * RedBlackTree / 좌편향 레드블랙트리 (Left-Leaning Red-Black Tree, LLRB Tree)
+
+## Chapter_6 : 해시테이블
+* LinearProbing / 선형조사, 개방주소방식(Open Addressing)
