@@ -36,3 +36,4 @@
 
 ## Chapter_7 : 우선순위큐
 * BinaryHeap / 최소힙
+* HuffmanCoding / 허프만 
