@@ -37,3 +37,6 @@
 ## Chapter_7 : 우선순위큐
 * BinaryHeap / 최소힙
 * HuffmanCoding / 허프만 
+
+## Chapter_8 : 정렬
+* SelectionSort / 선택정렬
