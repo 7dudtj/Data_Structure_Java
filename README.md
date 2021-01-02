@@ -32,3 +32,4 @@
 * QuadraticProbing / 이차조사, 개방주소방식(Open Addressing)
 * RandomProbing / 랜덤조사, 개방주소방식(Open Addressing)
 * DoubleHashing / 이중해싱, 개방주소방식(Open Addressing)
+* Chaining / 체이닝, 폐쇄주소방식(Closed Addressing)
