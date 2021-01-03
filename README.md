@@ -45,3 +45,4 @@
 * HeapSort / 힙정렬
 * MergeSort / 합병정렬
 * QuickSort / 퀵정렬
+* BucketSort / 버킷정렬
