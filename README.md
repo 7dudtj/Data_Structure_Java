@@ -41,3 +41,4 @@
 ## Chapter_8 : 정렬
 * SelectionSort / 선택정렬
 * InsertionSort / 삽입정렬
+* ShellSort / 쉘정렬
