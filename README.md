@@ -40,3 +40,4 @@
 
 ## Chapter_8 : 정렬
 * SelectionSort / 선택정렬
+* InsertionSort / 
