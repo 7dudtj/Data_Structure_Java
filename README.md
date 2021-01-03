@@ -43,3 +43,4 @@
 * InsertionSort / 삽입정렬
 * ShellSort / 쉘정렬
 * HeapSort / 힙정렬
+* MergeSort / 합병정렬
