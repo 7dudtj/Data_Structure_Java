@@ -52,3 +52,4 @@
 * DFS / 깊이우선탐색(Depth First Search)
 * BFS / 너비우선탐색(Breath First Search)
 * TopologicalSort / 위상정렬
+* KruskalMST / Kruskal 알고리즘 최소신장트리(Kruskal Algorithm Minimum Spanning Tree)
