@@ -30,12 +30,8 @@ public class Main {
     adjList[5].add(e11); adjList[2].add(e12);
 
     KruskalMST kmst = new KruskalMST(adjList, 12);
-    Edge[] answer;
-    answer = kmst.mst();
-
-    for (Edge e: answer){
-      System.out.print(e.weight+" ");
-    }
+    kmst.mst();
+    kmst.showTree();
   }  
 }
 
@@ -144,5 +140,9 @@ class KruskalMST{
       }
     }
     return tree;
+  }
+  // 최소신장트리 보기
+  public void showTree(){
+    for (Edge e: tree) System.out.print(e.weight+" ");
   }
 }
