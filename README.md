@@ -54,3 +54,4 @@
 * TopologicalSort / 위상정렬
 * KruskalMST / Kruskal 알고리즘 최소신장트리(Kruskal Algorithm Minimum Spanning Tree)
 * PrimMST / Prim 알고리즘 최소신장트리(Prim Algorithm Minimum Spanning Tree)
+* DijkstraSP / Dijkstra 알고리즘 최단경로(Dijkstra Algorithm Shortest Path)
