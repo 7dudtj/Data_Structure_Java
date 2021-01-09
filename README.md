@@ -53,3 +53,4 @@
 * BFS / 너비우선탐색(Breath First Search)
 * TopologicalSort / 위상정렬
 * KruskalMST / Kruskal 알고리즘 최소신장트리(Kruskal Algorithm Minimum Spanning Tree)
+* PrimMST / Prim 알고리즘 최소신장트리(Prim Algorithm Minimum Spanning Tree)
