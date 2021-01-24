@@ -55,5 +55,5 @@
 * KruskalMST / Kruskal 알고리즘 최소신장트리(Kruskal Algorithm Minimum Spanning Tree)
 * PrimMST / Prim 알고리즘 최소신장트리(Prim Algorithm Minimum Spanning Tree)
 * DijkstraSP / Dijkstra 알고리즘 최단경로(Dijkstra Algorithm Shortest Path)
->> 기존 다익스트라는 O(N^2). O(NlogN)의 성능을 가진 다익스트라 구현도 
+>> 기존 다익스트라는 O(N^2). O(NlogN)의 성능을 가진 다익스트라 구현도 해야함
 * BellmanFordSP / BellmanFord 알고리즘 최단경로(BellmanFord Algorithm Shortest Path)
