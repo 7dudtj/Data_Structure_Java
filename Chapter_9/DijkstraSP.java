@@ -4,6 +4,8 @@ DijkstraSP - Dijkstra 알고리즘(최단경로)
 수행시간 : O(N^2)
 이진힙 사용시 수행시간 : O(NlogN)
 N : 정점의 수
+
+모든 정점이 연결되어있을때 사용. 그렇지 않을 경우, 96번째줄 밑에 'if (minVertex == -1) break;'를 넣을것
 */
 
 import java.util.List;
