@@ -1,5 +1,8 @@
 /*
 버킷정렬 (Bucket Sort)
+
+평균 수행시간 : O(N)
+최악 수행시간 : 
 */
 
 public class Main {
