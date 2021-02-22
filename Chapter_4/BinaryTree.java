@@ -57,16 +57,16 @@ class BinaryTree<Key extends Comparable<Key>>{
   // 중위순회
   public void inorder(Node n){
     if (n != null){
-      preorder(n.getLeft()); // n의 왼쪽 서브트리를 순회하기 위해
+      inorder(n.getLeft()); // n의 왼쪽 서브트리를 순회하기 위해
       System.out.print(n.getKey()+" "); // 노드 n 방문
-      preorder(n.getRight()); // n의 오른쪽 서브트리를 순회하기 위해
+      inorder(n.getRight()); // n의 오른쪽 서브트리를 순회하기 위해
     }
   }
   // 후위순회
   public void postorder(Node n){
     if (n != null){
-      preorder(n.getLeft()); // n의 왼쪽 서브트리를 순회하기 위해
-      preorder(n.getRight()); // n의 오른쪽 서브트리를 순회하기 위해
+      postorder(n.getLeft()); // n의 왼쪽 서브트리를 순회하기 위해
+      postorder(n.getRight()); // n의 오른쪽 서브트리를 순회하기 위해
       System.out.print(n.getKey()+" "); // 노드 n 방문
     }
   }
