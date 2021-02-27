@@ -6,6 +6,7 @@ N : 정점의 수
 
 모든 정점이 연결되어있는지 여부에 상관없이 사용 가능.
 PriorityQueue를 사용하여, 시간복잡도를 O(N^2)에서 O(NlogN)으로 낮춤
+62번째줄에 'N-1' 자리에는 도착점(endPoint)를 넣어주면 됨
 */
 
 import java.util.List;
@@ -59,7 +60,7 @@ public class Main {
     pq.add(new Edge(0, 0));
     while (!pq.isEmpty()){
       Edge temp = pq.poll();
-      if (temp.adjvertex == N-1) continue;
+      if (temp.adjvertex == N-1) continue; // N-1: endPoint
       visited[temp.adjvertex] = true;
       for (Edge e: adjList[temp.adjvertex]){
         if (!visited[e.adjvertex] && distance[temp.adjvertex] + e.weight < distance[e.adjvertex]){
