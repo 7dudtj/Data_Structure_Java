@@ -51,17 +51,18 @@ public class Main {
 
     // do Dijkstra
     distance[startPoint] = 0;
-    visited[startPoint] = true;
+    //visited[startPoint] = true; // 안써도 될 듯
     PriorityQueue<Edge> pq = new PriorityQueue<>(new Comparator<Edge>(){
       @Override
       public int compare(Edge e1, Edge e2){
         return e1.weight - e2.weight;
       }
     });
-    pq.add(new Edge(0, 0));
+    pq.add(new Edge(startPoint, 0)); // 수정된 부분. 0 대신 startPoint를 넣어줘야함
     while (!pq.isEmpty()){
       Edge temp = pq.poll();
-      if (temp.adjvertex == N-1) continue; // N-1: endPoint
+      if (visited[temp.adjvertex]) continue; // 이 조건이 모든 경우에서 작동하는 듯
+      //if (temp.adjvertex == N-1) continue; // N-1: endPoint
       visited[temp.adjvertex] = true;
       for (Edge e: adjList[temp.adjvertex]){
         if (!visited[e.adjvertex] && distance[temp.adjvertex] + e.weight < distance[e.adjvertex]){
