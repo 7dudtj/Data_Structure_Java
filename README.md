@@ -54,7 +54,7 @@
 * BFS / 너비우선탐색(Breath First Search)
 * TopologicalSort / 위상정렬
 * KruskalMST / Kruskal 알고리즘 최소신장트리(Kruskal Algorithm Minimum Spanning Tree)
-* ㄴ 간략화 필요   
+* KruskalMST - Simple Code / 간략화한 KruskalMST   
 * PrimMST / Prim 알고리즘 최소신장트리(Prim Algorithm Minimum Spanning Tree)
 * DijkstraSP - O(N^2) / Dijkstra 알고리즘 최단경로(Dijkstra Algorithm Shortest Path)
 * DijkstraSP - O(NlogN) / PriorityQueue를 사용하여 시간복잡도를 낮춘 DijkstraSP 알고리즘
